@@ -1,8 +1,10 @@
 import axios from 'axios';
+// eslint-disable-next-line no-unused-vars
 import React, { useEffect, useState } from 'react';
 import { MdChevronLeft, MdChevronRight } from 'react-icons/md';
 import { Movie } from './Movie';
 
+// eslint-disable-next-line react/prop-types
 export const Row = ({ title, fetchURL, rowID }) => {
   const [movies, setMovies] = useState([]);
 
