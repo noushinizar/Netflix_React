@@ -1,10 +1,11 @@
+/* eslint-disable no-unused-vars */
 import { Navbar } from "./components/Navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Home } from "./pages/Home";
 import { AuthContextProvider } from "./Context/AuthContext";
 import { Login } from "./pages/Login";
 import { Signup } from "./pages/Signup";
-import { Acccount } from "./pages/Acccount";
+import {  Account } from "./pages/Account";
 import { ProtectedRoute } from "./components/ProtectedRoute";
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
             path="/account"
             element={
               <ProtectedRoute>
-                <Acccount />
+                <Account />
               </ProtectedRoute>
             }
           />
