@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
-import { Index } from 'src/components'
-import { Row } from 'src/components/Row'
+import  Index  from 'src/components/Index.jsx'
+import  Row  from 'src/components/Row.jsx'
 import requests from 'src/Requests'
 
 export const Home = () => {
