@@ -2,7 +2,7 @@
 import React from 'react'
 import  Index  from 'src/components/Index.jsx'
 import  Row  from 'src/components/Row.jsx'
-import requests from 'src/Requests'
+import requests from 'src/Requests.jsx'
 
 export const Home = () => {
   return (
